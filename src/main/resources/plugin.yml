@@ -1,0 +1,57 @@
+name: ZeroStudioTPA
+version: 1.0.0
+main: com.zerostudio.tpa.ZeroStudioTPA
+api-version: '1.21'
+authors: [ZeroStudio]
+description: Configurable player teleport requests with a request GUI and countdown.
+commands:
+  tpa:
+    description: Send a teleport request or view help.
+    usage: /tpa <player|help>
+    aliases: [tprequest]
+  tpahere:
+    description: Ask a player to teleport to you.
+    usage: /tpahere <player>
+  tpaccept:
+    description: Accept an incoming teleport request.
+    usage: /tpaccept [player]
+  tpdeny:
+    description: Deny an incoming teleport request.
+    usage: /tpdeny [player]
+  tpcancel:
+    description: Cancel your outgoing teleport requests.
+    usage: /tpcancel
+  tpatoggle:
+    description: Toggle incoming teleport requests.
+    usage: /tpatoggle
+  tpauto:
+    description: Toggle automatic request acceptance.
+    usage: /tpauto
+  tpareload:
+    description: Reload ZeroStudioTPA configuration.
+    usage: /tpareload
+permissions:
+  zerostudio.tpa:
+    description: Send teleport requests.
+    default: true
+  zerostudio.tpahere:
+    description: Ask players to teleport to you.
+    default: true
+  zerostudio.accept:
+    description: Accept teleport requests.
+    default: true
+  zerostudio.deny:
+    description: Deny teleport requests.
+    default: true
+  zerostudio.toggle:
+    description: Toggle incoming requests and auto acceptance.
+    default: true
+  zerostudio.bypasscooldown:
+    description: Bypass the request cooldown.
+    default: op
+  zerostudio.bypassmovement:
+    description: Ignore movement during teleport countdowns.
+    default: op
+  zerostudio.admin:
+    description: Reload ZeroStudioTPA configuration.
+    default: op

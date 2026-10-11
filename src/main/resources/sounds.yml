@@ -1,0 +1,47 @@
+# Sound identifiers use Minecraft registry names without the minecraft: prefix.
+sounds:
+  request-sent:
+    enabled: true
+    name: block.note_block.pling
+    volume: 0.8
+    pitch: 1.2
+  request-received:
+    enabled: true
+    name: block.amethyst_block.chime
+    volume: 0.8
+    pitch: 1.0
+  accepted:
+    enabled: true
+    name: entity.player.levelup
+    volume: 0.8
+    pitch: 1.0
+  denied:
+    enabled: true
+    name: block.note_block.bass
+    volume: 0.8
+    pitch: 0.8
+  countdown:
+    enabled: true
+    name: block.note_block.hat
+    volume: 0.5
+    pitch: 1.1
+  teleport:
+    enabled: true
+    name: entity.enderman.teleport
+    volume: 0.8
+    pitch: 1.0
+  expired:
+    enabled: true
+    name: block.note_block.bass
+    volume: 0.6
+    pitch: 0.7
+  gui-open:
+    enabled: true
+    name: block.chest.open
+    volume: 0.5
+    pitch: 1.1
+  cancelled:
+    enabled: true
+    name: block.note_block.bass
+    volume: 0.6
+    pitch: 0.8

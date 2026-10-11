@@ -1,0 +1,28 @@
+title: '<dark_gray>Teleport Request</dark_gray>'
+size: 27
+fill-empty-slots: true
+items:
+  filler:
+    material: CYAN_STAINED_GLASS_PANE
+    name: ' '
+    lore: []
+  target:
+    slot: 13
+    material: PLAYER_HEAD
+    name: '<aqua><bold><target></bold></aqua>'
+    lore:
+      - '<gray>Request from <white><sender></white></gray>'
+      - '<gray>Type: <white><type></white></gray>'
+      - '<dark_gray>Choose an option below.</dark_gray>'
+  accept:
+    slot: 11
+    material: LIME_CONCRETE
+    name: '<green><bold>ACCEPT</bold></green>'
+    lore:
+      - '<gray>Accept this teleport request.</gray>'
+  deny:
+    slot: 15
+    material: RED_CONCRETE
+    name: '<red><bold>DENY</bold></red>'
+    lore:
+      - '<gray>Decline this teleport request.</gray>'

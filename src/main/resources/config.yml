@@ -1,0 +1,34 @@
+# Request lifecycle
+requests:
+  expiration-seconds: 60
+  cooldown-seconds: 3
+  max-outgoing: 3
+
+# Teleport countdown and interruption rules
+teleport:
+  countdown-seconds: 5
+  cancel-on-movement: true
+  movement-distance: 0.2
+  cancel-on-world-change: true
+  cancel-on-damage: false
+  disabled-worlds: []
+  safe-destination:
+    enabled: true
+    search-radius: 2
+
+# Optional built-in combat tagging. Damage between players applies a tag for this duration.
+combat:
+  enabled: false
+  tag-seconds: 10
+
+permissions:
+  tpa: zerostudio.tpa
+  tpahere: zerostudio.tpahere
+  accept: zerostudio.accept
+  deny: zerostudio.deny
+  toggle: zerostudio.toggle
+  bypass-cooldown: zerostudio.bypasscooldown
+  bypass-movement: zerostudio.bypassmovement
+  admin: zerostudio.admin
+
+debug: false
